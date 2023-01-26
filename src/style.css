@@ -1,0 +1,30 @@
+.formContainer{
+  position: fixed;
+  top: 0;
+  left: 100%;
+  bottom: 0;
+  background: #000000cf;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms ease all;
+}
+.formContainer.show{
+  left:0;
+}
+.formBox{
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgb(0 0 0 / 36%);
+  padding: 12px 18px;
+}
+
+.closeBtn{
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
